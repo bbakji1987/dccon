@@ -79,21 +79,21 @@ html								{	font-family:'cwtexyen', 'Jeju Gothic', serif;
 						 -1px  1px 3px grey,    0 1px 3px grey,
 						  1px  1px 3px grey,  1px   0 3px grey,
 						  1px -1px 3px grey,   0 -1px 3px grey; }
-.chat_nickname_box	{	font-size:0.8em; }
+.chat_nickname_box	{	font-size:0em; }
 
 
 .chat_outer_box			{	position:relative; z-index:0; overflow:hidden;
-											margin-top:8px; border:1px solid grey; padding:4px; }
+											margin-top:15px; border:0px solid grey; padding:0px; }
 .chat_inner_box,	/* SOON DEPRECATED */
 .chat_upper_box			{	margin-bottom:3px; }
 											
-.chat_nickname_box,
+.chat_nickname_box.
 .chat_badge_box 		{	display:inline-block; }
 .chat_badge_box			{ float:right; }
 .chat_outer_box .chat_msg_box,
 .chat_lower_box			{ clear:right; }
 
-.chat_msg_box							{	white-space:pre-line; word-break:break-word;
+.chat_msg_box		{	text-align:center; background-color:rgba(53,53,53,0.8); }					{	white-space:pre-line; word-break:break-word; 
 														max-height:100px; padding:0 0 5px 0; }
 .chat_msg_box.image_only	{	text-align:center; }
 
