@@ -87,7 +87,7 @@ html								{	font-family:'cwtexyen', 'Jeju Gothic', serif;
 .chat_inner_box,	/* SOON DEPRECATED */
 .chat_upper_box			{	margin-bottom:3px; }
 											
-.chat_nickname_box.
+.chat_nickname_box. 	
 .chat_badge_box 		{	display:inline-block; }
 .chat_badge_box			{ float:right; }
 .chat_outer_box .chat_msg_box,
